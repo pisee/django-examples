@@ -22,7 +22,14 @@
     ```
     python manage.py migrate
     ```
+1. Django create super user
+    ```
+    python manage.py createsuperuser
+    ```
 1. Run Django web application
     ```
     $ python manage.py runserver
     ```
+1. create contents http://localhost:8000/admin
+1. polls app in http://localhost:8000/polls
+1. check ```/api/polls```, ```/rest/polls``` for json comunication
